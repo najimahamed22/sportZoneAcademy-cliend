@@ -34,4 +34,3 @@
 - **Stripe: A payment processing platform.**
 - **dotenv**
 - **jsonwebtoken**
-⌢猠潰瑲潚敮捁摡浥⵹汣敩摮•਍
