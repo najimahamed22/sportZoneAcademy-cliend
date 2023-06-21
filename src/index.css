@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active {
+  @apply font-bold tracking-wide rounded-md text-sky-950  bg-green-50 transition-colors duration-200 hover:text-blue-400;
+}
+.btn-sky {
+  @apply px-4 py-2 mt-4 font-bold bg-sky-400 text-slate-900 hover:text-sky-400 rounded-md hover:bg-slate-900 focus:outline-none focus:bg-blue-600;
+}
+.btn-gray {
+  @apply font-bold mt-4  py-2 px-4 hover:bg-sky-400 hover:text-slate-900 bg-gray-900 text-white rounded-md  focus:outline-none;
+}
+.drawer-side a.active {
+  color: white;
+}
+.drawer-side a {
+  background-color: transparent;
+}
+.dark {
+  background-color: #000000;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
